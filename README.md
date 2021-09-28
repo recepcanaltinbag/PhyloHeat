@@ -15,7 +15,7 @@ Phylogenomic clustering and visualization for species determination. For now, Ph
 
 # Installation 
 
-I recommend to use virtual environments:
+I recommend to use conda but not necessary
 
 ```
 conda update conda --all
