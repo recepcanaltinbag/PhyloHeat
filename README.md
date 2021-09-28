@@ -3,7 +3,7 @@ Phylogenomic clustering and visualization for species determination. For now, Ph
 
 # Requirements
 
-- Linux (it maybe run on Windows and MacOS too, but not tested)
+- Linux (not tested on Windows and MacOS)
 - [Phyton](https://www.python.org/) 3.8 or later
 
 ## The required packages 
