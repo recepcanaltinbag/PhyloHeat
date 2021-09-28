@@ -61,7 +61,7 @@ Inputs were explained previously, you must enter the path to config file for all
 - vmax: Maximum number of shared protein families (ınitially 6000) Just for coloring, you can try different values
 - dpi: Output pdf dpi
 
-# Outputs
+### Outputs
 - heatmat.pdf: output heatmap path
 - species.csv: clustering results as csv file. Same numbers represents same classes. Different classes can be sign for different species.
 
