@@ -1,16 +1,30 @@
 # PhyloHeat
 Phylogenomic clustering and visualization for species determination. For now, PhyloHeat can be used to visualize the species and subgroup differentiation of bacterial genomes. There are two main clustering approach as comparing ANI values (with recommended thresholds) and creating a distance matrix based on shared protein families. The two approach is supporting each other most of the time. 
 
-# Installation
+# Requirements
 
-Tested on Python 3.8
+- Linux (it maybe run on Windows and MacOS too, but not tested)
+- [Phyton](https://www.python.org/) 3.8 or later
 
-# The required packages 
+## The required packages 
 
-- pandas-1.3.3
-- seaborn-0.11.2
-- scipy-1.7.1
-- matplotlib-3.4.3
+- [Pandas](https://github.com/pandas-dev/pandas) pandas-1.3.3
+- [Seaborn](https://github.com/mwaskom/seaborn) seaborn-0.11.2
+- [Scipy](https://github.com/scipy/scipy) scipy-1.7.1
+- [Matplotlib](https://github.com/matplotlib/matplotlib) matplotlib-3.4.3
+
+# Installation 
+
+I recommend to use virtual environments:
+
+```
+conda update conda --all
+conda create --name PhyloHeat python=3.8
+conda activate PhyloHeat
+```
+
+You can use pip to install dependecies
+
 ```
 pip install pandas
 pip install seaborn
@@ -66,4 +80,8 @@ Inputs were explained previously, you must enter the path to config file for all
 - species.csv: clustering results as csv file. Same numbers represents same classes. Different classes can be sign for different species.
 
 
+# Uninstallation
+```
+conda env remove --name PhyloHeat
+```
 
