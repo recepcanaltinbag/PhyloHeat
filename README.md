@@ -21,6 +21,7 @@ I recommend to use conda but not necessary
 conda update conda --all
 conda create --name PhyloHeat python=3.8
 conda activate PhyloHeat
+
 ```
 
 You can use pip to install dependecies
@@ -38,6 +39,8 @@ You can try the initially prepared config file and demo folder to see what can b
 just to run PhyloHeat.py file.
 ```
 conda activate PhyloHeat
+git clone https://github.com/recepcanaltinbag/PhyloHeat.git
+cd PhyloHeat
 python3 PhyloHeat.py
 ```
 The outputs can be found in 'demo/output' folder. Example output:
