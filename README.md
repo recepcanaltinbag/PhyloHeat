@@ -37,6 +37,7 @@ pip install seaborn
 You can try the initially prepared config file and demo folder to see what can be done with PhyloHeat. All you need is 
 just to run PhyloHeat.py file.
 ```
+conda activate PhyloHeat
 python3 PhyloHeat.py
 ```
 The outputs can be found in 'demo/output' folder. Example output:
